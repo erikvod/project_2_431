@@ -1,0 +1,3 @@
+- motivations
+- usage 
+- history, future, shortcomings

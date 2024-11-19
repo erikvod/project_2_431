@@ -5,6 +5,16 @@ skipFiles = [ ".gitignore", "package.json" ]
 [[processes]]
 id = "process1"
 name = "To Do"
+tasks = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+tasks = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
 
   [[processes.tasks]]
   id = "dwusj2cy3xytnl74jdjekagr"
@@ -17,12 +27,13 @@ name = "To Do"
   priority = ""
   linkCommits = [ ]
 
-[[processes]]
-id = "process2"
-name = "In Progress"
-tasks = [ ]
-
-[[processes]]
-id = "process3"
-name = "Done"
-tasks = [ ]
+  [[processes.tasks]]
+  id = "muqvqt1mv4ug6bu9wrgdbrwd"
+  title = "Initializing project structure stuff "
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = "2024-11-19T05:00:00.000Z"
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
