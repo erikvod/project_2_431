@@ -2,6 +2,12 @@
 
 ### Dylan
 
+## Contributors
+
+- **Erik Vodanovic**
+- **Stephanie Myalik**
+
+---
 ## Project specifications:
 
 - Installation of the language - use docker if necessary
