@@ -25,6 +25,12 @@ Dylan uses a dynamic typing system but allows optional type declarations to enab
 **Key Features:**
 - **Dynamic Dispatch:** Supports polymorphism through dynamic method resolution.
 - **Multiple Inheritance:** Allows classes to inherit features from more than one parent class.
+- **All Entities as Objects:** All entities, including numbers and strings, are treated as objects.
+- **Automatic Garbage Collection:** Includes built-in memory management to reclaim unused objects.
+- **Reference-based Variables:** Variables store references to values, not the values themselves. This means all copies of one number point to the same object. Objects are destroyed as soon as all references to them are deleted.
+- **Variable Parameters in Methods:** Methods can accept a variable number of parameters and/or parameters of variable types.
+- **Getters and Setters:** Automatically generates predefined names for getters and setters.
+- **Exception Handling:** Provides robust exception handling. Programs can signal conditions, and handlers specify how various conditions should be processed.
 - **Macros:** Provides robust macro capabilities for code abstraction and transformation.
 - **Modules:** Includes a modular system for organizing and encapsulating code.
 - **Garbage Collection:** Features built-in memory management.
