@@ -1,7 +1,8 @@
 # project_2_431
 
-### Dylan
+## Dylan
 
+---
 ## Contributors
 
 - **Erik Vodanovic**
