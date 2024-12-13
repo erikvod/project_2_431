@@ -10,16 +10,30 @@
 ---
 ## Project specifications:
 
-- Installation of the language - use docker if necessary
-- requirements
-- Main motivations and characteristics (such as paradigms and typing disciplines) of the language
-- Main usage of the language, preferably using VS Code, with examples (need examples for implementing data structures, concurrency, map/reduce/filter, tail recursion, .... ....)
-- Shortcomings of the (current version of the) language
-- Their plans for the future of the language
+- **Installation and specifications of the language**
+- **Main motivations and characteristics (such as paradigms and typing disciplines) of the language**
+- **Main usage of the language with examples**
+- **Shortcomings and their plans for the future of the language**
 
+--- 
 
+## Project Outline
+- ### project
+    - **todoApp:** containing an attempt to create a simple todo app using the Dylan programming language
+    - **examples.dylan:** contains code examples for data structures, concurrency, and other features of the language
+    - **startup.md:** contains the installation and initialization steps for the Dylan programming language
 
-SOURCES:
+- ### research
+    - **background.md** Contains the background information of the Dylan programming language
+    - **competition.md** Contains the competition of the Dylan programming language in context
+    - **history.md** Contains the history of the Dylan programming language
+    - **shortcomings_and_future.md** contains the shortcomings and future plans of the Dylan programming language
+
+---
+
+### SOURCES:
+
+Using the vscode extension "vscode-dylan": dylan-foundry.vscode-dylan
 
 - [Why Dylan?](https://opendylan.org/intro-dylan/why-dylan.html)
 - [Dylan: A New Language Is Blowin' in the Wind](https://www.schneier.com/essays/archives/1992/09/dylan_a_new_language.html)

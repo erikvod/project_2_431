@@ -5,14 +5,24 @@ skipFiles = [ ".gitignore", "package.json" ]
 [[processes]]
 id = "process1"
 name = "To Do"
+tasks = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+tasks = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
 
   [[processes.tasks]]
-  id = "mkms6j790xzvcc9a0giw4s5j"
-  title = "functional examples of language"
+  id = "ujaio8xsirbv7fcnpfipbdvj"
+  title = "working on research elements"
   description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
-  dueDate = "2024-12-09T05:00:00.000Z"
+  dueDate = "2024-12-06T05:00:00.000Z"
   checkList = [ ]
   priority = ""
   linkCommits = [ ]
@@ -28,24 +38,16 @@ name = "To Do"
   priority = ""
   linkCommits = [ ]
 
-[[processes]]
-id = "process2"
-name = "In Progress"
-
   [[processes.tasks]]
-  id = "ujaio8xsirbv7fcnpfipbdvj"
-  title = "working on research elements"
+  id = "mkms6j790xzvcc9a0giw4s5j"
+  title = "functional examples of language"
   description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
-  dueDate = "2024-12-06T05:00:00.000Z"
+  dueDate = "2024-12-09T05:00:00.000Z"
   checkList = [ ]
   priority = ""
   linkCommits = [ ]
-
-[[processes]]
-id = "process3"
-name = "Done"
 
   [[processes.tasks]]
   id = "dwusj2cy3xytnl74jdjekagr"
