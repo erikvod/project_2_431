@@ -1,0 +1,28 @@
+# Use a lightweight base image
+FROM ubuntu:22.04
+
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install dependencies and Open Dylan
+RUN apt-get update && apt-get install -y \
+    wget \
+    tar \
+    build-essential \
+    && wget https://github.com/dylan-lang/opendylan/releases/download/v2023.1.0/opendylan-2023.1-x86_64-linux.tar.bz2 \
+    && tar -xf opendylan-2023.1-x86_64-linux.tar.bz2 \
+    && mv opendylan-2023.1 /opt/opendylan \
+    && ln -s /opt/opendylan/bin/* /usr/local/bin/ \
+    && rm -rf opendylan-2023.1-x86_64-linux.tar.bz2
+
+# Set up the working directory
+WORKDIR /app
+
+# Copy project files into the container
+COPY . /app
+
+# Set PATH
+ENV PATH="/opt/opendylan/bin:$PATH"
+
+# Default command (use this if you want to build the project)
+CMD ["bash"]
