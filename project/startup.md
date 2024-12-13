@@ -41,9 +41,9 @@
         dylan-compiler -version
         ```
 
-running it the todo application:
-build: `dylan-compiler -build todo`
-run the executable: `./build/bin/todo`
+#### Running the todo application:
+- build: `dylan-compiler -build todo`
+- run the executable: `./build/bin/todo`
 
 This proves to be erronious and could not be resolved. The build command does not recognize the files and does not produce and executable. The error persists when a dockerfile is used, when a makefile is used, and any other debugging methods are attempted. The example should have generated a simple terminal application that renders like so:
 
